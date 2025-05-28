@@ -1,0 +1,6 @@
+/* important is used in css to give a certain fix style for an element */
+/* it can be used with class or id selectors */
+
+p{
+    color: violet;
+}

@@ -1,0 +1,79 @@
+<!-- HTML FORMS  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <h2>This is html forms</h2>
+
+    <!-- form tag is used to submit all information  that user enters in the web page. -->
+    <!-- input tag is used to takes input from users. -->
+    <!-- placeholder is used  to show some help text to the user about what should they enter into the field. -->
+
+    <form action="backend.php">
+      <div>
+        name :<input type="text" placeholder="Enter your Name" name="Myname" />
+      </div>
+      <br />
+
+      <div>
+        role :<input type="text" placeholder="Enter your role" name="Myrole" />
+      </div>
+      <br />
+
+      <div>
+        age : <input type="number" placeholder="enter your age" name="Myage" />
+      </div>
+      <br />
+
+      <div>Date:<input type="date" name="Mydate" /></div>
+      <br />
+
+      <div>
+        Are you eligible? <br />
+        <input type="checkbox" name="Myeligibility" />
+      </div>
+      <br />
+
+      <div>
+        Gender: <br />
+        male: <input type="radio" name="My gender" /> <br />
+        female: <input type="radio" name="My gender" /> <br />
+        other: <input type="radio" name="My gender" />
+      </div>
+      <br />
+
+      <div>
+        write about yourself: <br />
+        <textarea
+          name="Mytext"
+          placeholder="enter about yourself"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <br />
+
+      <div>
+        which car you want: <br />
+        <label for="car">car</label>
+        <select name="mycar" id="car">
+          <option value="ind">indica</option>
+          <option value="swf">swift</option>
+          <option value="maru" selected>maruti</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <input type="submit" value="sumbit now" /> <br />
+        <br />
+        <input type="reset" value="Reset now" /><br />
+      </div>
+    </form>
+  </body>
+</html>

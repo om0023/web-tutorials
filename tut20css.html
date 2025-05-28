@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIGNMENT</title>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <style>
+
+       * {
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: "Ubuntu", sans-serif; 
+            }
+
+
+
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            background-color: rgb(250, 226, 205);
+            margin: 33px auto;
+
+        }
+
+        .item{
+            border: 5px solid rgb(232, 100, 100);
+            border-radius: 30px;
+            background-color: rgb(188, 232, 232);
+            margin: 12px 12px ;
+            padding: 12px 8px;
+
+        }
+
+        #fruits{
+            float: right;
+            width: 45%;
+        }
+
+        #computers{
+            float: left;
+            width: 45%;
+
+        }
+
+        #stationary{
+            clear: both;
+            float: left;
+            width: 100%;    
+
+        }
+        p, h3 {
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+        }
+
+        h1 {
+            margin: 23px auto;
+            width: 455px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fruit Basket</h1>
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore aliquam suscipit. Soluta delectus natus rerum accusantium. Sit, dolorum! Amet perferendis et voluptate similique nam alias numquam sunt fugit possimu Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, alias doloremque velit maxime, vel dolorum omnis iusto facere mag <p>
+        </div>
+
+        <div id="computers" class="item">
+            <h3>computers</h3>
+            <p id="computerspara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore aliquam suscipit. Soluta delectus natus rerum accusantium. Sit, dolorum! Amet perferendis et voluptate similique nam alias numquam sunt fugit possimu Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam sapiente id voluptatem tempora quasi, reiciendis nulla eum, non sit veritatis magni perspiciatis, dolor a! Deserunt suscipit labore in tenetur reprehenderit ea voluptatibus <p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore aliquam suscipit. Soluta delectus natus rerum accusantium. Sit, dolorum! Amet perferendis et voluptate similique nam alias numquam sunt fugit possimus. <p>
+        </div>
+    </div>
+</body>
+</html>
